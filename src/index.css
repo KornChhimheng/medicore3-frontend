@@ -1,0 +1,28 @@
+/* Custom styles for date inputs */
+input[type="date"]::placeholder {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-datetime-edit-text {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
